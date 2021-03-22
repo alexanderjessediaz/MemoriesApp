@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/posts'
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
-import memories from './images/memories.png';
+import memories from './images/memories2.png';
 import useStyles from './styles';
 
 const App = () => {
@@ -17,10 +17,10 @@ const App = () => {
   },[dispatch]);
 
   return (
-    <Container maxidth="lg">
-      <AppBar className={classes.appBar} postition="static" color="inherit">
+    <Container maxWidth="lg">
+      <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">Memories</Typography>
-        <img className={classes.image} src={memories} alt="memories" height="30" />
+        <img className={classes.image} src={memories} alt="icon" height="60" />
       </AppBar>
       <Grow in>
         <Container>
