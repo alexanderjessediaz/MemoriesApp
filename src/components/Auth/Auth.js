@@ -1,19 +1,23 @@
-import React from 'react'
-import { Avatar, Button, Paper, Grid, Typography, Container, TextField } from "@material-ui/core"
+import React, { useState } from 'react';
+import { Avatar, Button, Paper, Grid, Typography, Container} from "@material-ui/core";
 import LockOutlinedIcon from '@material-ui/icons/LockOpenOutlined';
 import Input from './Input'
+import useStyles from './styles';
+
 const Auth = () => {
     const classes = useStyles();
-
+    const [showPassoword, setShowPassword] = useState(false);
     const isSignup = false;
+
+    const handleShowPassword = () => setShowPassword((prevShowPassword) => !prevShowPassword);
 
     const handleSubmit = () => {
 
-    }
+    };
 
     const handleChange = () => {
 
-    }
+    };
 
     return (
         <Container component="main" maxWidth="xs">
@@ -24,20 +28,25 @@ const Auth = () => {
                 <Typography variant="h5">{isSignup ? 'Sign Up': "Sign In"}</Typography>
                 <form className={classes.form} onSubmit={handleSubmit}>
                     <Grid container spacing={2}>
-                        {
-                            isSignup && (
+                        { isSignup && (
 
                                 <>
                                     <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half />
-                                    <Input name="firstName" label="First Name" handleChange={handleChange} half/>
+                                    <Input name="lastName" label="Last Name" handleChange={handleChange} half/>
+                                    
                                 </>
-                            )
-                        }
+                            )}
+                            <Input name="email" label="Email Address" handleChange={handleChange} type="email" />
+                            <Input name="password" label="Password" handleChange={handleChange} type={showPassoword ? "text" : "password"} handleShowPassword={handleShowPassword}/>
+                            { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" />}
                     </Grid>
+                    <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
+                        {isSignup ? "Sign Up" : "Sign In"}
+                    </Button>
                 </form>
             </Paper>
         </Container>
     )
 }
 
-export default Auth
+export default Auth;
