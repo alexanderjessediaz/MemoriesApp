@@ -11,7 +11,6 @@ import useStyles from './styles';
 import { signin, signup } from '../../actions/auth';
 
 const GOOGLE_ID = '1093284425170-3lk2od9c3t7mkh5a6je0q92643sp5k4n.apps.googleusercontent.com'
-const GOOGLE_SECRET ='s5aIyFDjd96aKfACPRVY94_P'
 
 const initialState = { firstName: "", lastName: "", email: "", password: "", confirmPassword: "" }
 
@@ -40,7 +39,7 @@ const Auth = () => {
 
     const switchMode= () => {
         setIsSignup((prevIsSignup) => !prevIsSignup);
-        handleShowPassword(false)
+        setShowPassword(false)
     }
 
     const googleSuccess = async (res) => {
