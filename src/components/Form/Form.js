@@ -44,7 +44,7 @@ const Form = ({ currentId, setCurrentId }) => {
                     Please Sign In to create your own memories.
                 </Typography>
             </Paper>
-        )
+        );
     }
 
     return (
