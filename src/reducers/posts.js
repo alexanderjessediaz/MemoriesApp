@@ -1,5 +1,4 @@
 /* eslint-disable import/no-anonymous-default-export */
-// import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 //  export default function posts(posts = [], action) {
 //     switch (action.type) {
 //         case DELETE:
