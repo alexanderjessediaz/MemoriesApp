@@ -1,4 +1,4 @@
-### Memories App
+# Memories App
 
 ## Summary
 A web app for users to post and share their memories through pictures, titles, descriptions, and tags.
@@ -32,14 +32,14 @@ Node.js
 
 
 ## To do:
-# Display user name of poster on cards
-# Deploy
-# Change placeholder icon
-# Make memory form more accessible
+#### Display user name of poster on cards
+#### Deploy
+#### Change placeholder icon
+#### Make memory form more accessible
 
 ## Future features and additions 
-# User groups & friends list
-# Messaging
+#### User groups & friends list
+#### Messaging
 
 ## Special thanks:
 Heavily inspired by Javascript Mastery: https://github.com/adrianhajdin
