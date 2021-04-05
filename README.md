@@ -1,71 +1,45 @@
-# Getting Started with Create React App
+### Memories App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+A web app for users to post and share their memories through pictures, titles, descriptions, and tags.
 
-## Available Scripts
 
-In the project directory, you can run:
+## To install
 
-### `yarn start`
+clone repo down into desired repoisitory into a desired directory and run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```npm install```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## To use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Simply sign up either using a google account or create an account using the sign-in process.
 
-### `yarn build`
+<img width="1405" alt="Screen Shot 2021-04-05 at 4 06 42 PM" src="https://user-images.githubusercontent.com/58966106/113632799-0a908100-9629-11eb-8c37-1fc28408a667.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then start posting your memories!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1419" alt="Screen Shot 2021-04-05 at 4 09 09 PM" src="https://user-images.githubusercontent.com/58966106/113632960-4e838600-9629-11eb-85a2-fd6390f6fa47.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Stack used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+MERN
+Mongodb
+Express
+React
+Node.js
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## To do:
+# Display user name of poster on cards
+# Deploy
+# Change placeholder icon
+# Make memory form more accessible
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future features and additions 
+# User groups & friends list
+# Messaging
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# MemoriesApp
+## Special thanks:
+Heavily inspired by Javascript Mastery: https://github.com/adrianhajdin
