@@ -59,11 +59,13 @@ const Auth = () => {
         console.log("Google Sign In was unsuccessful.");
     };
 
+    // replace lock avatar color
     return (
         <Container component="main" maxWidth="xs">
             <Paper className={classes.paper} elevation={3}>
                 <Avatar className={classes.avatar}>
-                    <LockOutlinedIcon />
+                    
+                    {/* <LockOutlinedIcon /> */}
                 </Avatar>
                 <Typography variant="h5">{isSignup ? 'Sign Up': "Sign In"}</Typography>
                 <form className={classes.form} onSubmit={handleSubmit}>
